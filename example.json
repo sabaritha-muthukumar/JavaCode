@@ -1,0 +1,19 @@
+var p=new promise(function(accept,reject) {
+const x="geeks";
+const y="geeks";
+if(x==y)
+{
+accept();
+}
+else
+{
+reject();
+}
+})
+promise
+        .then(function(successMessage) {
+              console.log(successful checked);
+})
+.catch(function(errorMessage) {
+console.log(errorMessage);
+});
